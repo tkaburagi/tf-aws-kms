@@ -3,7 +3,7 @@ terraform {
 }
 
 provider "aws" {
-	region = var.region
+	region = "ap-northeast-1"
 }
 
 resource "aws_kms_key" "handson-key" {
